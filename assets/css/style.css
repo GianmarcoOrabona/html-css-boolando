@@ -5,3 +5,56 @@
   box-sizing: border-box;
 }
 /* #endregion reset rules */
+
+/* #region colors */
+:root {
+  --bg-header: #ff6900;
+  --bg-price: #ff0000;
+  --bg-footer: #1a1a1a;
+}
+/* #endregion colors */
+
+/* #region utilities */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* #endregion utilities */
+
+/* #region header */
+header {
+  background-color: var(--bg-header);
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  justify-content: center;
+  padding: 1rem;
+}
+
+.logo img {
+  width: 30%;
+}
+
+/* #endregion header */
