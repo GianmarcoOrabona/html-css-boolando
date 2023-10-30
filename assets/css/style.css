@@ -15,6 +15,10 @@
 /* #endregion colors */
 
 /* #region utilities */
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .container {
   width: 70%;
   margin: 0 auto;
@@ -36,6 +40,14 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
 /* #endregion utilities */
 
 /* #region header */
@@ -56,5 +68,41 @@ header {
 .logo img {
   width: 30%;
 }
-
 /* #endregion header */
+
+/* #region main */
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Card style */
+.card {
+  border: 2px solid #dddddd;
+  width: 30%;
+  margin: 35px 15px;
+}
+
+.card-img img {
+  border-bottom: 2px solid #dddddd;
+  max-width: 100%;
+}
+
+.card-content {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.price {
+  font-weight: bold;
+  color: var(--bg-price);
+}
+
+.price-barred {
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #000000;
+}
+/* #endregion main */
